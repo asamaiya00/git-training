@@ -5,11 +5,11 @@ def subtract(a,b):
 
 def divide(a,b):
     if b==0:
-        return "Error: Division by zero"
+        return "Exception: Division by zero"
     return a/b
 
 def square(a):
-    if a==0:
-        return "Error"
+    if a<=0:
+        return "Error: Only positive numbers allowed"
     return a*a
     
