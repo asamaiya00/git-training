@@ -10,6 +10,6 @@ def divide(a,b):
 
 def square(a):
     if a==0:
-        return 0
+        return "Error"
     return a*a
     
